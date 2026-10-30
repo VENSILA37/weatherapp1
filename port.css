@@ -1,0 +1,75 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial,Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#00c6ff,#0072ff);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.card{
+    width: 90%;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+.search{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.search input{
+    width:100%;
+    border: 0;
+    outline: 0;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    padding: 12px 60px 12px 20px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+.search input::placeholder{
+    color: rgba(255, 255, 255, 0.7);
+     
+}
+.search button{
+    position: absolute;
+    right: 5px;
+    border: 0;
+    outline: 0;
+    background: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search button img{
+    width: 20px;
+
+}
+.weather{
+    margin-top: 25px;
+
+}
+.temp{
+    font-size: 50px;
+    margin: 10px 0;
+
+}
+.city{
+    font-size: 32px;
+    margin: 10px 0;
+}
+.description{
+    font-size: 22px;
+}
